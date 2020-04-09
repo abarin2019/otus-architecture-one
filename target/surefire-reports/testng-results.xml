@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="55" passed="55" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-10T00:33:08 MSK" name="Command line suite" finished-at="2020-04-10T00:33:08 MSK" duration-ms="63">
+    <groups>
+    </groups>
+    <test started-at="2020-04-10T00:33:08 MSK" name="Command line test" finished-at="2020-04-10T00:33:08 MSK" duration-ms="63">
+      <class name="MyStringActionTest">
+        <test-method signature="testAddString(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testAddString" description="Testing method add:void" data-provider="addString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[, world!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddString -->
+        <test-method signature="testAddString(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testAddString" description="Testing method add:void" data-provider="addString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monday+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Friday]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Monday+Friday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddString -->
+        <test-method signature="testAddString(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testAddString" description="Testing method add:void" data-provider="addString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ahead]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Go ahead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddString -->
+        <test-method signature="testAddString(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testAddString" description="Testing method add:void" data-provider="addString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddString -->
+        <test-method signature="testGetMyString(java.lang.String, [C)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyString" description="Testing getMyString:char[]" data-provider="getMyString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first-string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@3349e9bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyString -->
+        <test-method signature="testGetMyString(java.lang.String, [C)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyString" description="Testing getMyString:char[]" data-provider="getMyString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[replacement]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@38d8f54a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyString -->
+        <test-method signature="testGetMyString(java.lang.String, [C)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyString" description="Testing getMyString:char[]" data-provider="getMyString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[activated-50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@55b699ef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyString -->
+        <test-method signature="testGetMyString(java.lang.String, [C)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyString" description="Testing getMyString:char[]" data-provider="getMyString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@351d00c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyString -->
+        <test-method signature="testGetMyStringStartPosition(java.lang.String, int, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringStartPosition" description="Testing getMyString(startPosition, symbolsNumber):char[]" data-provider="getMyStringFromStartPosition" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[replacement]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ceme]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringStartPosition -->
+        <test-method signature="testGetMyString(java.lang.String, [C)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyString" description="Testing getMyString:char[]" data-provider="getMyString" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01/04/2020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[C@689604d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyString -->
+        <test-method signature="testGetMyStringStartPosition(java.lang.String, int, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringStartPosition" description="Testing getMyString(startPosition, symbolsNumber):char[]" data-provider="getMyStringFromStartPosition" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first-string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rst-st]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringStartPosition -->
+        <test-method signature="testGetMyStringStartPosition(java.lang.String, int, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringStartPosition" description="Testing getMyString(startPosition, symbolsNumber):char[]" data-provider="getMyStringFromStartPosition" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01/04/2020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringStartPosition -->
+        <test-method signature="testGetMyStringStartPosition(java.lang.String, int, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringStartPosition" description="Testing getMyString(startPosition, symbolsNumber):char[]" data-provider="getMyStringFromStartPosition" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[er]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringStartPosition -->
+        <test-method signature="testGetMyStringStartPosition(java.lang.String, int, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringStartPosition" description="Testing getMyString(startPosition, symbolsNumber):char[]" data-provider="getMyStringFromStartPosition" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[activated-50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringStartPosition -->
+        <test-method signature="testGetMyStringSymbolsNumber(java.lang.String, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringSymbolsNumber" description="Testing getMyString(symbolsNumber):char[]" data-provider="getMyStringSymbolsNumber" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[replacement]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[replace]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringSymbolsNumber -->
+        <test-method signature="testGetMyStringSymbolsNumber(java.lang.String, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringSymbolsNumber" description="Testing getMyString(symbolsNumber):char[]" data-provider="getMyStringSymbolsNumber" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zero]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringSymbolsNumber -->
+        <test-method signature="testGetMyStringSymbolsNumber(java.lang.String, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringSymbolsNumber" description="Testing getMyString(symbolsNumber):char[]" data-provider="getMyStringSymbolsNumber" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first-string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringSymbolsNumber -->
+        <test-method signature="testGetMyStringSymbolsNumber(java.lang.String, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringSymbolsNumber" description="Testing getMyString(symbolsNumber):char[]" data-provider="getMyStringSymbolsNumber" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01/04/2020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[01/04/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringSymbolsNumber -->
+        <test-method signature="testGetMyStringSymbolsNumber(java.lang.String, int, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testGetMyStringSymbolsNumber" description="Testing getMyString(symbolsNumber):char[]" data-provider="getMyStringSymbolsNumber" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[activated-50]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[activated-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMyStringSymbolsNumber -->
+        <test-method signature="testMyStringActionCapacity(int, int)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringActionCapacity" description="Testing MyStringAction Constructor(capacity)" data-provider="dataCapacity" finished-at="2020-04-10T00:33:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringActionCapacity -->
+        <test-method signature="testMyStringActionCapacity(int, int)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringActionCapacity" description="Testing MyStringAction Constructor(capacity)" data-provider="dataCapacity" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringActionCapacity -->
+        <test-method signature="testMyStringActionCapacity(int, int)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringActionCapacity" description="Testing MyStringAction Constructor(capacity)" data-provider="dataCapacity" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringActionCapacity -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+        <test-method signature="testSetMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringActionTest@161479c6]" started-at="2020-04-10T00:33:08 MSK" name="testSetMyString" description="Testing setMyString:void" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMyString -->
+      </class> <!-- MyStringActionTest -->
+      <class name="MyStringTest">
+        <test-method signature="testClearOfMyString(java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testClearOfMyString" description="Testing method clear() of MyString" data-provider="dataClear" finished-at="2020-04-10T00:33:08 MSK" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearOfMyString -->
+        <test-method signature="testClearOfMyString(java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testClearOfMyString" description="Testing method clear() of MyString" data-provider="dataClear" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearOfMyString -->
+        <test-method signature="testClearOfMyString(java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testClearOfMyString" description="Testing method clear() of MyString" data-provider="dataClear" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearOfMyString -->
+        <test-method signature="testClearOfMyString(java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testClearOfMyString" description="Testing method clear() of MyString" data-provider="dataClear" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rv5$jk;l]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearOfMyString -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testGetLength(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testGetLength" description="Test length of MyString" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLength -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[data string]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beep]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello, world!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Go]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyString(java.lang.String, java.lang.String)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyString" description="Testing MyString Constructor(Literal)" data-provider="dataStrings" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyString -->
+        <test-method signature="testMyStringChar(char, char)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringChar" description="Testing MyString Constructor(char)" data-provider="dataChars" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringChar -->
+        <test-method signature="testMyStringChar(char, char)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringChar" description="Testing MyString Constructor(char)" data-provider="dataChars" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringChar -->
+        <test-method signature="testMyStringChar(char, char)[pri:0, instance:MyStringTest@6d2a209c]" started-at="2020-04-10T00:33:08 MSK" name="testMyStringChar" description="Testing MyString Constructor(char)" data-provider="dataChars" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyStringChar -->
+      </class> <!-- MyStringTest -->
+      <class name="MyStringStackTest">
+        <test-method signature="testCapacityConstructor(int, int)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testCapacityConstructor" description="Testing capacity constructor" data-provider="stackCapacityConstructor" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCapacityConstructor -->
+        <test-method signature="testCapacityConstructor(int, int)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testCapacityConstructor" description="Testing capacity constructor" data-provider="stackCapacityConstructor" finished-at="2020-04-10T00:33:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCapacityConstructor -->
+        <test-method signature="testCapacityConstructor(int, int)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testCapacityConstructor" description="Testing capacity constructor" data-provider="stackCapacityConstructor" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCapacityConstructor -->
+        <test-method signature="testCapacityConstructor(int, int)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testCapacityConstructor" description="Testing capacity constructor" data-provider="stackCapacityConstructor" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCapacityConstructor -->
+        <test-method signature="testDefaultConstructor()[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testDefaultConstructor" description="Testing default constructor" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultConstructor -->
+        <test-method signature="testStackPeek([C, [Ljava.lang.String;)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testStackPeek" description="Testing stack peek" data-provider="stackPeek" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[C@7586beff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3b69e7d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStackPeek -->
+        <test-method signature="testStackPop(int, [Ljava.lang.String;)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testStackPop" description="Testing stack pop" data-provider="stackPush" finished-at="2020-04-10T00:33:08 MSK" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7d8995e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStackPop -->
+        <test-method signature="testStackPush(int, [Ljava.lang.String;)[pri:0, instance:MyStringStackTest@75329a49]" started-at="2020-04-10T00:33:08 MSK" name="testStackPush" description="Testing stack push" data-provider="stackPush" finished-at="2020-04-10T00:33:08 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@42a48628]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStackPush -->
+      </class> <!-- MyStringStackTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

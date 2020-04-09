@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Command_line_suite" class="navigator-link">
+              <span class="suite-name border-passed">Command line suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Command_line_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Command_line_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Command_line_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Command_line_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Command_line_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Command_line_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Command_line_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods,   55 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods passed suite-Command_line_suite"> (hide)</a> <!-- hide-methods passed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Command_line_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testAddString(Hello, , world!, Hello, world!)">testAddString(Hello, , world!, Hello, world!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testAddString(123, 45, 12345)">testAddString(123, 45, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testAddString(Monday+, Friday, Monday+Friday)">testAddString(Monday+, Friday, Monday+Friday)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testAddString(Go,  ahead, Go ahead)">testAddString(Go,  ahead, Go ahead)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testCapacityConstructor(5, 5)">testCapacityConstructor(5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testCapacityConstructor(0, 0)">testCapacityConstructor(0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testCapacityConstructor(20, 20)">testCapacityConstructor(20, 20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testCapacityConstructor(1, 1)">testCapacityConstructor(1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testClearOfMyString(ABC)">testClearOfMyString(ABC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testClearOfMyString(12345)">testClearOfMyString(12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testClearOfMyString(T)">testClearOfMyString(T)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testClearOfMyString(Rv5$jk;l)">testClearOfMyString(Rv5$jk;l)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testDefaultConstructor">testDefaultConstructor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(beep, beep)">testGetLength(beep, beep)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(Go, Go)">testGetLength(Go, Go)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(data string, data string)">testGetLength(data string, data string)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(123, 123)">testGetLength(123, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(Hello, world!, Hello, world!)">testGetLength(Hello, world!, Hello, world!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testGetLength(A, A)">testGetLength(A, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyString(replacement, [r, e, p, l, a, c, e, m, e, n, t])">testGetMyString(replacement, [r, e, p, l, a, c, e, m, e, n, t])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyString(first-string, [f, i, r, s, t, -, s, t, r, i, n, g])">testGetMyString(first-string, [f, i, r, s, t, -, s, t, r, i, n, g])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyString(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0])">testGetMyString(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyString(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0])">testGetMyString(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyString(zero, [z, e, r, o])">testGetMyString(zero, [z, e, r, o])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringStartPosition(01/04/2020, 5, 5, /2020)">testGetMyStringStartPosition(01/04/2020, 5, 5, /2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringStartPosition(zero, 1, 2, er)">testGetMyStringStartPosition(zero, 1, 2, er)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringStartPosition(replacement, 5, 4, ceme)">testGetMyStringStartPosition(replacement, 5, 4, ceme)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringStartPosition(activated-50, 10, 5, 50)">testGetMyStringStartPosition(activated-50, 10, 5, 50)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringStartPosition(first-string, 2, 6, rst-st)">testGetMyStringStartPosition(first-string, 2, 6, rst-st)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringSymbolsNumber(replacement, 7, replace)">testGetMyStringSymbolsNumber(replacement, 7, replace)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringSymbolsNumber(01/04/2020, 6, 01/04/)">testGetMyStringSymbolsNumber(01/04/2020, 6, 01/04/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringSymbolsNumber(zero, 1, z)">testGetMyStringSymbolsNumber(zero, 1, z)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringSymbolsNumber(first-string, 5, first)">testGetMyStringSymbolsNumber(first-string, 5, first)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testGetMyStringSymbolsNumber(activated-50, 10, activated-)">testGetMyStringSymbolsNumber(activated-50, 10, activated-)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(123, 123)">testMyString(123, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(data string, data string)">testMyString(data string, data string)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(beep, beep)">testMyString(beep, beep)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(Hello, world!, Hello, world!)">testMyString(Hello, world!, Hello, world!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(Go, Go)">testMyString(Go, Go)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyString(A, A)">testMyString(A, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testMyStringActionCapacity(5, 5)">testMyStringActionCapacity(5, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testMyStringActionCapacity(100, 100)">testMyStringActionCapacity(100, 100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testMyStringActionCapacity(1, 1)">testMyStringActionCapacity(1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyStringChar(a, a)">testMyStringChar(a, a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyStringChar(B, B)">testMyStringChar(B, B)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringTest" class="method navigator-link" hash-for-method="testMyStringChar(1, 1)">testMyStringChar(1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(Hello, world!, Hello, world!)">testSetMyString(Hello, world!, Hello, world!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(data string, data string)">testSetMyString(data string, data string)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(Go, Go)">testSetMyString(Go, Go)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(A, A)">testSetMyString(A, A)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(123, 123)">testSetMyString(123, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringActionTest" class="method navigator-link" hash-for-method="testSetMyString(beep, beep)">testSetMyString(beep, beep)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testStackPeek([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday])">testStackPeek([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testStackPop(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])">testStackPop(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Command_line_suite" title="MyStringStackTest" class="method navigator-link" hash-for-method="testStackPush(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])">testStackPush(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Command_line_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MyStringActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddString(Hello, , world!, Hello, world!)">
+                  </a> <!-- testAddString(Hello, , world!, Hello, world!) -->
+                  <span class="method-name">testAddString</span>
+                  <span class="parameters">(Hello, , world!, Hello, world!)</span>
+                  <em>
+(Testing method add:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddString(123, 45, 12345)">
+                  </a> <!-- testAddString(123, 45, 12345) -->
+                  <span class="method-name">testAddString</span>
+                  <span class="parameters">(123, 45, 12345)</span>
+                  <em>
+(Testing method add:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddString(Monday+, Friday, Monday+Friday)">
+                  </a> <!-- testAddString(Monday+, Friday, Monday+Friday) -->
+                  <span class="method-name">testAddString</span>
+                  <span class="parameters">(Monday+, Friday, Monday+Friday)</span>
+                  <em>
+(Testing method add:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddString(Go,  ahead, Go ahead)">
+                  </a> <!-- testAddString(Go,  ahead, Go ahead) -->
+                  <span class="method-name">testAddString</span>
+                  <span class="parameters">(Go,  ahead, Go ahead)</span>
+                  <em>
+(Testing method add:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyString(replacement, [r, e, p, l, a, c, e, m, e, n, t])">
+                  </a> <!-- testGetMyString(replacement, [r, e, p, l, a, c, e, m, e, n, t]) -->
+                  <span class="method-name">testGetMyString</span>
+                  <span class="parameters">(replacement, [r, e, p, l, a, c, e, m, e, n, t])</span>
+                  <em>
+(Testing getMyString:char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyString(first-string, [f, i, r, s, t, -, s, t, r, i, n, g])">
+                  </a> <!-- testGetMyString(first-string, [f, i, r, s, t, -, s, t, r, i, n, g]) -->
+                  <span class="method-name">testGetMyString</span>
+                  <span class="parameters">(first-string, [f, i, r, s, t, -, s, t, r, i, n, g])</span>
+                  <em>
+(Testing getMyString:char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyString(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0])">
+                  </a> <!-- testGetMyString(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0]) -->
+                  <span class="method-name">testGetMyString</span>
+                  <span class="parameters">(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0])</span>
+                  <em>
+(Testing getMyString:char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyString(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0])">
+                  </a> <!-- testGetMyString(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0]) -->
+                  <span class="method-name">testGetMyString</span>
+                  <span class="parameters">(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0])</span>
+                  <em>
+(Testing getMyString:char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyString(zero, [z, e, r, o])">
+                  </a> <!-- testGetMyString(zero, [z, e, r, o]) -->
+                  <span class="method-name">testGetMyString</span>
+                  <span class="parameters">(zero, [z, e, r, o])</span>
+                  <em>
+(Testing getMyString:char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringStartPosition(01/04/2020, 5, 5, /2020)">
+                  </a> <!-- testGetMyStringStartPosition(01/04/2020, 5, 5, /2020) -->
+                  <span class="method-name">testGetMyStringStartPosition</span>
+                  <span class="parameters">(01/04/2020, 5, 5, /2020)</span>
+                  <em>
+(Testing getMyString(startPosition, symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringStartPosition(zero, 1, 2, er)">
+                  </a> <!-- testGetMyStringStartPosition(zero, 1, 2, er) -->
+                  <span class="method-name">testGetMyStringStartPosition</span>
+                  <span class="parameters">(zero, 1, 2, er)</span>
+                  <em>
+(Testing getMyString(startPosition, symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringStartPosition(replacement, 5, 4, ceme)">
+                  </a> <!-- testGetMyStringStartPosition(replacement, 5, 4, ceme) -->
+                  <span class="method-name">testGetMyStringStartPosition</span>
+                  <span class="parameters">(replacement, 5, 4, ceme)</span>
+                  <em>
+(Testing getMyString(startPosition, symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringStartPosition(activated-50, 10, 5, 50)">
+                  </a> <!-- testGetMyStringStartPosition(activated-50, 10, 5, 50) -->
+                  <span class="method-name">testGetMyStringStartPosition</span>
+                  <span class="parameters">(activated-50, 10, 5, 50)</span>
+                  <em>
+(Testing getMyString(startPosition, symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringStartPosition(first-string, 2, 6, rst-st)">
+                  </a> <!-- testGetMyStringStartPosition(first-string, 2, 6, rst-st) -->
+                  <span class="method-name">testGetMyStringStartPosition</span>
+                  <span class="parameters">(first-string, 2, 6, rst-st)</span>
+                  <em>
+(Testing getMyString(startPosition, symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringSymbolsNumber(replacement, 7, replace)">
+                  </a> <!-- testGetMyStringSymbolsNumber(replacement, 7, replace) -->
+                  <span class="method-name">testGetMyStringSymbolsNumber</span>
+                  <span class="parameters">(replacement, 7, replace)</span>
+                  <em>
+(Testing getMyString(symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringSymbolsNumber(01/04/2020, 6, 01/04/)">
+                  </a> <!-- testGetMyStringSymbolsNumber(01/04/2020, 6, 01/04/) -->
+                  <span class="method-name">testGetMyStringSymbolsNumber</span>
+                  <span class="parameters">(01/04/2020, 6, 01/04/)</span>
+                  <em>
+(Testing getMyString(symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringSymbolsNumber(zero, 1, z)">
+                  </a> <!-- testGetMyStringSymbolsNumber(zero, 1, z) -->
+                  <span class="method-name">testGetMyStringSymbolsNumber</span>
+                  <span class="parameters">(zero, 1, z)</span>
+                  <em>
+(Testing getMyString(symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringSymbolsNumber(first-string, 5, first)">
+                  </a> <!-- testGetMyStringSymbolsNumber(first-string, 5, first) -->
+                  <span class="method-name">testGetMyStringSymbolsNumber</span>
+                  <span class="parameters">(first-string, 5, first)</span>
+                  <em>
+(Testing getMyString(symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetMyStringSymbolsNumber(activated-50, 10, activated-)">
+                  </a> <!-- testGetMyStringSymbolsNumber(activated-50, 10, activated-) -->
+                  <span class="method-name">testGetMyStringSymbolsNumber</span>
+                  <span class="parameters">(activated-50, 10, activated-)</span>
+                  <em>
+(Testing getMyString(symbolsNumber):char[])                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringActionCapacity(5, 5)">
+                  </a> <!-- testMyStringActionCapacity(5, 5) -->
+                  <span class="method-name">testMyStringActionCapacity</span>
+                  <span class="parameters">(5, 5)</span>
+                  <em>
+(Testing MyStringAction Constructor(capacity))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringActionCapacity(100, 100)">
+                  </a> <!-- testMyStringActionCapacity(100, 100) -->
+                  <span class="method-name">testMyStringActionCapacity</span>
+                  <span class="parameters">(100, 100)</span>
+                  <em>
+(Testing MyStringAction Constructor(capacity))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringActionCapacity(1, 1)">
+                  </a> <!-- testMyStringActionCapacity(1, 1) -->
+                  <span class="method-name">testMyStringActionCapacity</span>
+                  <span class="parameters">(1, 1)</span>
+                  <em>
+(Testing MyStringAction Constructor(capacity))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(Hello, world!, Hello, world!)">
+                  </a> <!-- testSetMyString(Hello, world!, Hello, world!) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(Hello, world!, Hello, world!)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(data string, data string)">
+                  </a> <!-- testSetMyString(data string, data string) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(data string, data string)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(Go, Go)">
+                  </a> <!-- testSetMyString(Go, Go) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(Go, Go)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(A, A)">
+                  </a> <!-- testSetMyString(A, A) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(A, A)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(123, 123)">
+                  </a> <!-- testSetMyString(123, 123) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(123, 123)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSetMyString(beep, beep)">
+                  </a> <!-- testSetMyString(beep, beep) -->
+                  <span class="method-name">testSetMyString</span>
+                  <span class="parameters">(beep, beep)</span>
+                  <em>
+(Testing setMyString:void)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MyStringTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearOfMyString(ABC)">
+                  </a> <!-- testClearOfMyString(ABC) -->
+                  <span class="method-name">testClearOfMyString</span>
+                  <span class="parameters">(ABC)</span>
+                  <em>
+(Testing method clear() of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearOfMyString(12345)">
+                  </a> <!-- testClearOfMyString(12345) -->
+                  <span class="method-name">testClearOfMyString</span>
+                  <span class="parameters">(12345)</span>
+                  <em>
+(Testing method clear() of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearOfMyString(T)">
+                  </a> <!-- testClearOfMyString(T) -->
+                  <span class="method-name">testClearOfMyString</span>
+                  <span class="parameters">(T)</span>
+                  <em>
+(Testing method clear() of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearOfMyString(Rv5$jk;l)">
+                  </a> <!-- testClearOfMyString(Rv5$jk;l) -->
+                  <span class="method-name">testClearOfMyString</span>
+                  <span class="parameters">(Rv5$jk;l)</span>
+                  <em>
+(Testing method clear() of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(beep, beep)">
+                  </a> <!-- testGetLength(beep, beep) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(beep, beep)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(Go, Go)">
+                  </a> <!-- testGetLength(Go, Go) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(Go, Go)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(data string, data string)">
+                  </a> <!-- testGetLength(data string, data string) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(data string, data string)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(123, 123)">
+                  </a> <!-- testGetLength(123, 123) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(123, 123)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(Hello, world!, Hello, world!)">
+                  </a> <!-- testGetLength(Hello, world!, Hello, world!) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(Hello, world!, Hello, world!)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLength(A, A)">
+                  </a> <!-- testGetLength(A, A) -->
+                  <span class="method-name">testGetLength</span>
+                  <span class="parameters">(A, A)</span>
+                  <em>
+(Test length of MyString)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(123, 123)">
+                  </a> <!-- testMyString(123, 123) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(123, 123)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(data string, data string)">
+                  </a> <!-- testMyString(data string, data string) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(data string, data string)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(beep, beep)">
+                  </a> <!-- testMyString(beep, beep) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(beep, beep)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(Hello, world!, Hello, world!)">
+                  </a> <!-- testMyString(Hello, world!, Hello, world!) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(Hello, world!, Hello, world!)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(Go, Go)">
+                  </a> <!-- testMyString(Go, Go) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(Go, Go)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyString(A, A)">
+                  </a> <!-- testMyString(A, A) -->
+                  <span class="method-name">testMyString</span>
+                  <span class="parameters">(A, A)</span>
+                  <em>
+(Testing MyString Constructor(Literal))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringChar(a, a)">
+                  </a> <!-- testMyStringChar(a, a) -->
+                  <span class="method-name">testMyStringChar</span>
+                  <span class="parameters">(a, a)</span>
+                  <em>
+(Testing MyString Constructor(char))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringChar(B, B)">
+                  </a> <!-- testMyStringChar(B, B) -->
+                  <span class="method-name">testMyStringChar</span>
+                  <span class="parameters">(B, B)</span>
+                  <em>
+(Testing MyString Constructor(char))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyStringChar(1, 1)">
+                  </a> <!-- testMyStringChar(1, 1) -->
+                  <span class="method-name">testMyStringChar</span>
+                  <span class="parameters">(1, 1)</span>
+                  <em>
+(Testing MyString Constructor(char))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MyStringStackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCapacityConstructor(5, 5)">
+                  </a> <!-- testCapacityConstructor(5, 5) -->
+                  <span class="method-name">testCapacityConstructor</span>
+                  <span class="parameters">(5, 5)</span>
+                  <em>
+(Testing capacity constructor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCapacityConstructor(0, 0)">
+                  </a> <!-- testCapacityConstructor(0, 0) -->
+                  <span class="method-name">testCapacityConstructor</span>
+                  <span class="parameters">(0, 0)</span>
+                  <em>
+(Testing capacity constructor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCapacityConstructor(20, 20)">
+                  </a> <!-- testCapacityConstructor(20, 20) -->
+                  <span class="method-name">testCapacityConstructor</span>
+                  <span class="parameters">(20, 20)</span>
+                  <em>
+(Testing capacity constructor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCapacityConstructor(1, 1)">
+                  </a> <!-- testCapacityConstructor(1, 1) -->
+                  <span class="method-name">testCapacityConstructor</span>
+                  <span class="parameters">(1, 1)</span>
+                  <em>
+(Testing capacity constructor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDefaultConstructor">
+                  </a> <!-- testDefaultConstructor -->
+                  <span class="method-name">testDefaultConstructor</span>
+                  <em>
+(Testing default constructor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStackPeek([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday])">
+                  </a> <!-- testStackPeek([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday]) -->
+                  <span class="method-name">testStackPeek</span>
+                  <span class="parameters">([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday])</span>
+                  <em>
+(Testing stack peek)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStackPop(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])">
+                  </a> <!-- testStackPop(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]) -->
+                  <span class="method-name">testStackPop</span>
+                  <span class="parameters">(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</span>
+                  <em>
+(Testing stack pop)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStackPush(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])">
+                  </a> <!-- testStackPush(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]) -->
+                  <span class="method-name">testStackPush</span>
+                  <span class="parameters">(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</span>
+                  <em>
+(Testing stack push)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+        </div> <!-- panel Command_line_suite -->
+        <div panel-name="test-xml-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Command line suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MyStringTest&quot;/&gt;
+      &lt;class name=&quot;MyStringStackTest&quot;/&gt;
+      &lt;class name=&quot;MyStringActionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- Command line suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Command_line_suite');
+function tableData_Command_line_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClearOfMyString')
+data.setCell(0, 2, 'MyStringTest')
+data.setCell(0, 3, 3);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetLength')
+data.setCell(1, 2, 'MyStringTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testStackPop')
+data.setCell(2, 2, 'MyStringStackTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSetMyString')
+data.setCell(3, 2, 'MyStringActionTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCapacityConstructor')
+data.setCell(4, 2, 'MyStringStackTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMyStringActionCapacity')
+data.setCell(5, 2, 'MyStringActionTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetLength')
+data.setCell(6, 2, 'MyStringTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetLength')
+data.setCell(7, 2, 'MyStringTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testMyString')
+data.setCell(8, 2, 'MyStringTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSetMyString')
+data.setCell(9, 2, 'MyStringActionTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetLength')
+data.setCell(10, 2, 'MyStringTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetLength')
+data.setCell(11, 2, 'MyStringTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetMyString')
+data.setCell(12, 2, 'MyStringActionTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAddString')
+data.setCell(13, 2, 'MyStringActionTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testMyStringChar')
+data.setCell(14, 2, 'MyStringTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testGetMyStringSymbolsNumber')
+data.setCell(15, 2, 'MyStringActionTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMyString')
+data.setCell(16, 2, 'MyStringTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClearOfMyString')
+data.setCell(17, 2, 'MyStringTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testMyString')
+data.setCell(18, 2, 'MyStringTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testGetMyStringSymbolsNumber')
+data.setCell(19, 2, 'MyStringActionTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetMyStringSymbolsNumber')
+data.setCell(20, 2, 'MyStringActionTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMyString')
+data.setCell(21, 2, 'MyStringTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testGetMyStringSymbolsNumber')
+data.setCell(22, 2, 'MyStringActionTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testMyString')
+data.setCell(23, 2, 'MyStringTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testGetMyStringSymbolsNumber')
+data.setCell(24, 2, 'MyStringActionTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testGetMyStringStartPosition')
+data.setCell(25, 2, 'MyStringActionTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testMyStringActionCapacity')
+data.setCell(26, 2, 'MyStringActionTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testCapacityConstructor')
+data.setCell(27, 2, 'MyStringStackTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testDefaultConstructor')
+data.setCell(28, 2, 'MyStringStackTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testMyString')
+data.setCell(29, 2, 'MyStringTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testMyStringChar')
+data.setCell(30, 2, 'MyStringTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSetMyString')
+data.setCell(31, 2, 'MyStringActionTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testAddString')
+data.setCell(32, 2, 'MyStringActionTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetMyStringStartPosition')
+data.setCell(33, 2, 'MyStringActionTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testClearOfMyString')
+data.setCell(34, 2, 'MyStringTest')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testAddString')
+data.setCell(35, 2, 'MyStringActionTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testGetMyStringStartPosition')
+data.setCell(36, 2, 'MyStringActionTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testStackPeek')
+data.setCell(37, 2, 'MyStringStackTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testGetMyString')
+data.setCell(38, 2, 'MyStringActionTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testStackPush')
+data.setCell(39, 2, 'MyStringStackTest')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testCapacityConstructor')
+data.setCell(40, 2, 'MyStringStackTest')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testMyStringActionCapacity')
+data.setCell(41, 2, 'MyStringActionTest')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testGetMyStringStartPosition')
+data.setCell(42, 2, 'MyStringActionTest')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testAddString')
+data.setCell(43, 2, 'MyStringActionTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSetMyString')
+data.setCell(44, 2, 'MyStringActionTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testCapacityConstructor')
+data.setCell(45, 2, 'MyStringStackTest')
+data.setCell(45, 3, 0);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testSetMyString')
+data.setCell(46, 2, 'MyStringActionTest')
+data.setCell(46, 3, 0);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testMyStringChar')
+data.setCell(47, 2, 'MyStringTest')
+data.setCell(47, 3, 0);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testGetMyString')
+data.setCell(48, 2, 'MyStringActionTest')
+data.setCell(48, 3, 0);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testGetLength')
+data.setCell(49, 2, 'MyStringTest')
+data.setCell(49, 3, 0);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testSetMyString')
+data.setCell(50, 2, 'MyStringActionTest')
+data.setCell(50, 3, 0);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testGetMyString')
+data.setCell(51, 2, 'MyStringActionTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testClearOfMyString')
+data.setCell(52, 2, 'MyStringTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testGetMyString')
+data.setCell(53, 2, 'MyStringActionTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testGetMyStringStartPosition')
+data.setCell(54, 2, 'MyStringActionTest')
+data.setCell(54, 3, 0);
+window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 ms</span>
+              <div id="times-div-Command_line_suite">
+              </div> <!-- times-div-Command_line_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Command line suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Command_line_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyStringTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testClearOfMyString(ABC)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClearOfMyString(12345)</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClearOfMyString(T)</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClearOfMyString(Rv5$jk;l)</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(A, A)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(data string, data string)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(Hello, world!, Hello, world!)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(beep, beep)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(Go, Go)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLength(123, 123)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(A, A)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(data string, data string)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(Hello, world!, Hello, world!)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(beep, beep)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(Go, Go)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyString(123, 123)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringChar(1, 1)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringChar(a, a)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringChar(B, B)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyStringStackTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCapacityConstructor(0, 0)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCapacityConstructor(1, 1)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCapacityConstructor(5, 5)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCapacityConstructor(20, 20)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDefaultConstructor</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStackPeek([F, r, i, d, a, y], [Monday, Tuesday, Wednesday, Thursday, Friday])</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStackPop(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStackPush(6, [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday])</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MyStringActionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddString(Hello, , world!, Hello, world!)</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddString(Go,  ahead, Go ahead)</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddString(Monday+, Friday, Monday+Friday)</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddString(123, 45, 12345)</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyString(first-string, [f, i, r, s, t, -, s, t, r, i, n, g])</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyString(replacement, [r, e, p, l, a, c, e, m, e, n, t])</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyString(zero, [z, e, r, o])</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyString(activated-50, [a, c, t, i, v, a, t, e, d, -, 5, 0])</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyString(01/04/2020, [0, 1, /, 0, 4, /, 2, 0, 2, 0])</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringStartPosition(first-string, 2, 6, rst-st)</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringStartPosition(replacement, 5, 4, ceme)</span>
+                <span class="method-start">26 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringStartPosition(zero, 1, 2, er)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringStartPosition(activated-50, 10, 5, 50)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringStartPosition(01/04/2020, 5, 5, /2020)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringSymbolsNumber(first-string, 5, first)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringSymbolsNumber(replacement, 7, replace)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringSymbolsNumber(zero, 1, z)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringSymbolsNumber(activated-50, 10, activated-)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetMyStringSymbolsNumber(01/04/2020, 6, 01/04/)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringActionCapacity(1, 1)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringActionCapacity(5, 5)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyStringActionCapacity(100, 100)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(A, A)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(data string, data string)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(Hello, world!, Hello, world!)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(beep, beep)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(Go, Go)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSetMyString(123, 123)</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

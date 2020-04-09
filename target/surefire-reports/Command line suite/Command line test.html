@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 10 00:33:08 MSK 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (63 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MyStringActionTest.testAddString()'><b>testAddString</b><br>Test class: MyStringActionTest<br>Test method: Testing method add:void<br>Parameters: Hello, , world!, Hello, world!</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testAddString()'><b>testAddString</b><br>Test class: MyStringActionTest<br>Test method: Testing method add:void<br>Parameters: Go,  ahead, Go ahead</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testAddString()'><b>testAddString</b><br>Test class: MyStringActionTest<br>Test method: Testing method add:void<br>Parameters: Monday+, Friday, Monday+Friday</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testAddString()'><b>testAddString</b><br>Test class: MyStringActionTest<br>Test method: Testing method add:void<br>Parameters: 123, 45, 12345</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringStackTest.testCapacityConstructor()'><b>testCapacityConstructor</b><br>Test class: MyStringStackTest<br>Test method: Testing capacity constructor<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringStackTest.testCapacityConstructor()'><b>testCapacityConstructor</b><br>Test class: MyStringStackTest<br>Test method: Testing capacity constructor<br>Parameters: 1, 1</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringStackTest.testCapacityConstructor()'><b>testCapacityConstructor</b><br>Test class: MyStringStackTest<br>Test method: Testing capacity constructor<br>Parameters: 5, 5</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringStackTest.testCapacityConstructor()'><b>testCapacityConstructor</b><br>Test class: MyStringStackTest<br>Test method: Testing capacity constructor<br>Parameters: 20, 20</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringTest.testClearOfMyString()'><b>testClearOfMyString</b><br>Test class: MyStringTest<br>Test method: Testing method clear() of MyString<br>Parameters: ABC</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testClearOfMyString()'><b>testClearOfMyString</b><br>Test class: MyStringTest<br>Test method: Testing method clear() of MyString<br>Parameters: 12345</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testClearOfMyString()'><b>testClearOfMyString</b><br>Test class: MyStringTest<br>Test method: Testing method clear() of MyString<br>Parameters: T</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testClearOfMyString()'><b>testClearOfMyString</b><br>Test class: MyStringTest<br>Test method: Testing method clear() of MyString<br>Parameters: Rv5$jk;l</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringStackTest.testDefaultConstructor()'><b>testDefaultConstructor</b><br>Test class: MyStringStackTest<br>Test method: Testing default constructor</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: A, A</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: data string, data string</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: Hello, world!, Hello, world!</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: beep, beep</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: Go, Go</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testGetLength()'><b>testGetLength</b><br>Test class: MyStringTest<br>Test method: Test length of MyString<br>Parameters: 123, 123</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyString()'><b>testGetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString:char[]<br>Parameters: first-string, [C@3349e9bb</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyString()'><b>testGetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString:char[]<br>Parameters: replacement, [C@38d8f54a</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyString()'><b>testGetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString:char[]<br>Parameters: zero, [C@351d00c0</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyString()'><b>testGetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString:char[]<br>Parameters: activated-50, [C@55b699ef</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyString()'><b>testGetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString:char[]<br>Parameters: 01/04/2020, [C@689604d9</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringStartPosition()'><b>testGetMyStringStartPosition</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(startPosition, symbolsNumber):char[]<br>Parameters: first-string, 2, 6, rst-st</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringStartPosition()'><b>testGetMyStringStartPosition</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(startPosition, symbolsNumber):char[]<br>Parameters: replacement, 5, 4, ceme</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringStartPosition()'><b>testGetMyStringStartPosition</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(startPosition, symbolsNumber):char[]<br>Parameters: zero, 1, 2, er</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringStartPosition()'><b>testGetMyStringStartPosition</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(startPosition, symbolsNumber):char[]<br>Parameters: activated-50, 10, 5, 50</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringStartPosition()'><b>testGetMyStringStartPosition</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(startPosition, symbolsNumber):char[]<br>Parameters: 01/04/2020, 5, 5, /2020</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringSymbolsNumber()'><b>testGetMyStringSymbolsNumber</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(symbolsNumber):char[]<br>Parameters: first-string, 5, first</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringSymbolsNumber()'><b>testGetMyStringSymbolsNumber</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(symbolsNumber):char[]<br>Parameters: replacement, 7, replace</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringSymbolsNumber()'><b>testGetMyStringSymbolsNumber</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(symbolsNumber):char[]<br>Parameters: zero, 1, z</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringSymbolsNumber()'><b>testGetMyStringSymbolsNumber</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(symbolsNumber):char[]<br>Parameters: activated-50, 10, activated-</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testGetMyStringSymbolsNumber()'><b>testGetMyStringSymbolsNumber</b><br>Test class: MyStringActionTest<br>Test method: Testing getMyString(symbolsNumber):char[]<br>Parameters: 01/04/2020, 6, 01/04/</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: A, A</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: data string, data string</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: Hello, world!, Hello, world!</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: beep, beep</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: Go, Go</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyString()'><b>testMyString</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(Literal)<br>Parameters: 123, 123</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringActionTest.testMyStringActionCapacity()'><b>testMyStringActionCapacity</b><br>Test class: MyStringActionTest<br>Test method: Testing MyStringAction Constructor(capacity)<br>Parameters: 1, 1</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testMyStringActionCapacity()'><b>testMyStringActionCapacity</b><br>Test class: MyStringActionTest<br>Test method: Testing MyStringAction Constructor(capacity)<br>Parameters: 5, 5</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testMyStringActionCapacity()'><b>testMyStringActionCapacity</b><br>Test class: MyStringActionTest<br>Test method: Testing MyStringAction Constructor(capacity)<br>Parameters: 100, 100</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringTest.testMyStringChar()'><b>testMyStringChar</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(char)<br>Parameters: 1, 1</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyStringChar()'><b>testMyStringChar</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(char)<br>Parameters: a, a</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringTest.testMyStringChar()'><b>testMyStringChar</b><br>Test class: MyStringTest<br>Test method: Testing MyString Constructor(char)<br>Parameters: B, B</td>
+<td></td>
+<td>0</td>
+<td>MyStringTest@6d2a209c</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: A, A</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: data string, data string</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: Hello, world!, Hello, world!</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: beep, beep</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: Go, Go</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringActionTest.testSetMyString()'><b>testSetMyString</b><br>Test class: MyStringActionTest<br>Test method: Testing setMyString:void<br>Parameters: 123, 123</td>
+<td></td>
+<td>0</td>
+<td>MyStringActionTest@161479c6</td></tr>
+<tr>
+<td title='MyStringStackTest.testStackPeek()'><b>testStackPeek</b><br>Test class: MyStringStackTest<br>Test method: Testing stack peek<br>Parameters: [C@7586beff, [Ljava.lang.String;@3b69e7d1</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringStackTest.testStackPop()'><b>testStackPop</b><br>Test class: MyStringStackTest<br>Test method: Testing stack pop<br>Parameters: 6, [Ljava.lang.String;@7d8995e</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+<tr>
+<td title='MyStringStackTest.testStackPush()'><b>testStackPush</b><br>Test class: MyStringStackTest<br>Test method: Testing stack push<br>Parameters: 6, [Ljava.lang.String;@42a48628</td>
+<td></td>
+<td>0</td>
+<td>MyStringStackTest@75329a49</td></tr>
+</table><p>
+</body>
+</html>
